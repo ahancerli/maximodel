@@ -19,6 +19,20 @@ class Home extends CI_Controller {
 		$this->load->view($viewData->viewFolder,$viewData);
 	}
 
+	public function contact_us()
+	{
+		$viewData = new stdClass();
+		$viewData->viewFolder = "contact_v";
+		$this->load->view($viewData->viewFolder, $viewData);
+	}
+
+	public function references()
+	{
+		$viewData = new stdClass();
+		$viewData->viewFolder = "references_v";
+		$this->load->view($viewData->viewFolder, $viewData);
+	}
+
 
 
 }

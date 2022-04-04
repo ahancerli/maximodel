@@ -25,7 +25,7 @@
 						<div class="col-xl-12">
 							<div class="main-slider__content">
 								<div class="main-slider__icon">
-									<img src="<?= base_url("assets") ?>/images/shapes/main-slider-icon.png" alt="">
+									<img src="assets/images/shapes/main-slider-icon.png" alt="">
 								</div>
 								<div class="main-slider__sub-title-box">
 									<p class="main-slider__sub-title">welcome to ambed</p>

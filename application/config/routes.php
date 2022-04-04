@@ -55,21 +55,7 @@ $route['default_controller'] = 'home';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
-$route['proje-listesi'] = 'home/portfolio_list';
 $route['hakkimizda'] = 'home/about_us';
-$route['vizyon'] = 'home/vision';
-$route['misyon'] = 'home/mission';
-$route['markalar'] = 'home/brands';
 $route['referanslar'] = 'home/references';
 $route['iletisim'] = 'home/contact_us';
-$route['bir-daha-gosterme'] = 'home/neverShowAgainModal';
-$route['mesaj-gonder'] = 'home/send_contact_message';
 
-$route['resim-galerimiz'] = 'home/image_gallery';
-$route['video-galerimiz'] = 'home/video_gallery';
-
-$route['proje-detay/(:any)'] = 'home/project_detail/$1';
-
-$route['planlanan-projeler'] = 'home/plain_project';
-$route['tamamlanan-projeler'] = 'home/complate_project';
-$route['devam-eden-projeler'] = 'home/next_project';
