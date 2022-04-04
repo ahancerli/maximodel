@@ -5,6 +5,11 @@ class Home extends CI_Controller {
 
 	public $viewFolder = "";
 
+	public function __construct() {
+		parent::__construct();
+		$this->load->helper('url');
+	}
+
 	public function index()
 	{
 		$viewData = new stdClass();
@@ -32,7 +37,4 @@ class Home extends CI_Controller {
 		$viewData->viewFolder = "references_v";
 		$this->load->view($viewData->viewFolder, $viewData);
 	}
-
-
-
 }

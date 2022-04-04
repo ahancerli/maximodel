@@ -5,14 +5,14 @@
 			<div class="newsletter-shape-1"
 				 style="background-image: url(<?= base_url("assets") ?>/images/shapes/newsletter-shape-1.png);"></div>
 			<div class="newsletter__left">
-				<h3 class="newsletter__title">Join Our Newsletter</h3>
-				<p class="newsletter__text">Lorem ipsum dolor amet, elit do eiusmod sed</p>
+				<h3 class="newsletter__title">Fırsatları Kaçırmayın</h3>
+				<p class="newsletter__text">Tüm kampanya ve fırsatlarımızdan ilk sen haberdar ol!</p>
 			</div>
 			<div class="newsletter__right">
 				<form class="newsletter__form">
 					<div class="newsletter__input-box">
-						<input type="email" placeholder="Enter your email" name="email">
-						<button type="submit" class="thm-btn newsletter__btn">Subscribe</button>
+						<input type="email" placeholder="Mail Adresinizi Giriniz..." name="email">
+						<button type="submit" class="thm-btn newsletter__btn">Gönder</button>
 					</div>
 				</form>
 			</div>
@@ -28,15 +28,12 @@
 	<div class="site-footer__top">
 		<div class="container">
 			<div class="row">
-				<div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
+				<div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
 					<div class="footer-widget__column footer-widget__about">
 						<div class="footer-widget__logo">
-							<a href="index.html"><img src="assets/images/resources/footer-logo.png" alt=""></a>
+							<a href="index.html"><img src="<?= base_url("assets") ?>/images/resources/footer-logo.png" alt=""></a>
 						</div>
-						<div class="footer-widget__about-text-box">
-							<p class="footer-widget__about-text">We work with a passion of taking challenges and
-								creating new ones in advertising sector.</p>
-						</div>
+
 						<div class="site-footer__social">
 							<a href="#"><i class="fab fa-twitter"></i></a>
 							<a href="#"><i class="fab fa-facebook"></i></a>
@@ -45,43 +42,28 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms">
+				<div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms">
 					<div class="footer-widget__column footer-widget__explore clearfix">
-						<h3 class="footer-widget__title">Explore</h3>
+						<h3 class="footer-widget__title">Önemli Bilgiler</h3>
 						<ul class="footer-widget__explore-list list-unstyled clearfix">
-							<li><a href="about.html">About</a></li>
-							<li><a href="contact.html">Contact</a></li>
-							<li><a href="team.html">Our Team</a></li>
-							<li><a href="services.html">Our Services</a></li>
-							<li><a href="projects.html">Latest Projects</a></li>
-							<li><a href="contact.html">Pricing & Plans</a></li>
+							<li><a href="/">Anasayfa</a></li>
+							<li><a href="hakkimizda">Hakkımızda</a></li>
+							<li><a href="iletisim">İletişim</a></li>
+							<li><a href="referanslar">Referanslar</a></li>
 						</ul>
 					</div>
 				</div>
-				<div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="300ms">
-					<div class="footer-widget__column footer-widget__services clearfix">
-						<h3 class="footer-widget__title">Services</h3>
-						<ul class="footer-widget__services-list list-unstyled clearfix">
-							<li><a href="room-wallpapers.html">Room Wallpaper</a></li>
-							<li><a href="wall-painting.html">Wall Painting</a></li>
-							<li><a href="wall-sheets.html">Wall Sheets</a></li>
-							<li><a href="outdoor-design.html">Outdoor Designs</a></li>
-							<li><a href="pvc-panels.html">PVC Panels</a></li>
-							<li><a href="interior-designing.html">Interior Design</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms">
+				<div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms">
 					<div class="footer-widget__column footer-widget__contact clearfix">
-						<h3 class="footer-widget__title">Contact</h3>
+						<h3 class="footer-widget__title">Bize Ulaşın</h3>
 						<ul class="footer-widget__contact-list list-unstyled clearfix">
 							<li>
 								<div class="icon">
 									<span class="icon-phone-call"></span>
 								</div>
 								<div class="text">
-									<h5>Call anytime</h5>
-									<p><a href="tel:980009630">+ 98 (000) - 9630</a></p>
+									<h5>Bizi Arayın</h5>
+									<p><a href="tel:+908905338903264">+ 90 (533) 890 3264</a></p>
 								</div>
 							</li>
 							<li>
@@ -89,8 +71,8 @@
 									<span class="icon-message"></span>
 								</div>
 								<div class="text">
-									<h5>Send email</h5>
-									<p><a href="mailto:ambed@company.com">ambed@company.com</a></p>
+									<h5>Sipariş İçin</h5>
+									<p><a href="mailto:ambed@company.com">siparis@maximodel.com.tr</a></p>
 								</div>
 							</li>
 							<li>
@@ -98,8 +80,8 @@
 									<span class="icon-location"></span>
 								</div>
 								<div class="text">
-									<h5>380 St Kilda Road</h5>
-									<p>Melbourne, Australia</p>
+									<h5>Şahinbey</h5>
+									<p>Gazinatep, Türkiye</p>
 								</div>
 							</li>
 						</ul>
@@ -113,7 +95,7 @@
 			<div class="row">
 				<div class="col-xl-12">
 					<div class="site-footer__bottom-inner">
-						<p class="site-footer__bottom-text">© Copyright 2022 by <a href="#">Ambed Template</a>
+						<p class="site-footer__bottom-text">© Copyright 2022 by <a target="_blank" href="http://akmanhancerli.com">Akman Hançerli</a>
 						</p>
 					</div>
 				</div>
@@ -144,11 +126,11 @@
 		<ul class="mobile-nav__contact list-unstyled">
 			<li>
 				<i class="fa fa-envelope"></i>
-				<a href="mailto:needhelp@packageName__.com">needhelp@ambed.com</a>
+				<a href="mailto:needhelp@packageName__.com">siparis@maximodel.com.tr</a>
 			</li>
 			<li>
 				<i class="fa fa-phone-alt"></i>
-				<a href="tel:666-888-0000">666 888 0000</a>
+				<a href="tel:+905338903264">+90 (533) 890 3264</a>
 			</li>
 		</ul><!-- /.mobile-nav__contact -->
 		<div class="mobile-nav__top">
@@ -172,8 +154,8 @@
 	<!-- /.search-popup__overlay -->
 	<div class="search-popup__content">
 		<form action="#">
-			<label for="search" class="sr-only">search here</label><!-- /.sr-only -->
-			<input type="text" id="search" placeholder="Search Here..." />
+			<label for="search" class="sr-only">Arama Yap</label><!-- /.sr-only -->
+			<input type="text" id="search" placeholder="Arama Yap..." />
 			<button type="submit" aria-label="search submit" class="thm-btn">
 				<i class="icon-magnifying-glass"></i>
 			</button>

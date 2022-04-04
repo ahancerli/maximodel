@@ -55,6 +55,7 @@ $route['default_controller'] = 'home';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
+$route['hakkimizda'] = "home/about_us";
 $route['hakkimizda'] = 'home/about_us';
 $route['referanslar'] = 'home/references';
 $route['iletisim'] = 'home/contact_us';
