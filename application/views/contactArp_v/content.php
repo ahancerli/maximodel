@@ -5,11 +5,11 @@
 	<div class="container">
 		<div class="page-header__inner">
 			<ul class="thm-breadcrumb list-unstyled">
-				<li><a href="/">Anasayfa</a></li>
+				<li><a href="/">الصفحة الرئيسية</a></li>
 				<li><span>/</span></li>
-				<li>İletişim</li>
+				<li>اتصل</li>
 			</ul>
-			<h2>İletişim</h2>
+			<h2>اتصل</h2>
 		</div>
 	</div>
 </section>
@@ -25,8 +25,8 @@
 			<div class="col-xl-8 col-lg-7">
 				<div class="contact-page__left">
 					<div class="section-title text-left">
-						<span class="section-title__tagline">Bize Ulaşın</span>
-						<h2 class="section-title__title"> Bize Yazın</h2>
+						<span class="section-title__tagline">اتصل بنا</span>
+						<h2 class="section-title__title"> اتصل بنا</h2>
 						<div class="section-title__line"></div>
 					</div>
 					<div class="contact-page__form">
@@ -34,32 +34,32 @@
 							<div class="row">
 								<div class="col-xl-6">
 									<div class="comment-form__input-box">
-										<input type="text" placeholder="Adınız Soyadınız" name="name">
+										<input type="text" placeholder="اسمكم ولقبكم" name="name">
 									</div>
 								</div>
 								<div class="col-xl-6">
 									<div class="comment-form__input-box">
-										<input type="email" placeholder="Email Adresiniz" name="email">
+										<input type="email" placeholder="عنوان البريد الإلكتروني الخاص بك" name="email">
 									</div>
 								</div>
 								<div class="col-xl-6">
 									<div class="comment-form__input-box">
-										<input type="text" placeholder="Telefon Numarınız" name="Phone">
+										<input type="text" placeholder="رقم تليفونك" name="Phone">
 									</div>
 								</div>
 								<div class="col-xl-6">
 									<div class="comment-form__input-box">
-										<input type="text" placeholder="Konu" name="Subject">
+										<input type="text" placeholder="موضوعات" name="Subject">
 									</div>
 								</div>
 							</div>
 							<div class="row">
 								<div class="col-xl-12">
 									<div class="comment-form__input-box text-message-box">
-										<textarea name="message" placeholder="Mesaj Yaz"></textarea>
+										<textarea name="message" placeholder="اكتب رسالة"></textarea>
 									</div>
 									<div class="comment-form__btn-box">
-										<button type="submit" class="thm-btn comment-form__btn">Mesaj Gönder</button>
+										<button type="submit" class="thm-btn comment-form__btn">ارسل رسالة</button>
 									</div>
 								</div>
 							</div>
@@ -72,15 +72,15 @@
 					<div class="contact-page__details">
 						<ul class="list-unstyled contact-page__details-list">
 							<li>
-								<span>Bize Ulaşın</span>
+								<span>اتصل بنا</span>
 								<p><a href="tel:+905338903264">+90 (533) 890 3264</a></p>
 							</li>
 							<li>
-								<span>Sipariş İçin</span>
-								<p><a href="mailto:siparis@maximodel.com.tr">siparis@maximodel.com.tr</a></p>
+								<span>للطلب</span>
+								<p><a href="mailto:siparis@maximodel.com.tr">order@maximodel.com.tr</a></p>
 							</li>
 							<li>
-								<span>Adres</span>
+								<span>عنوان</span>
 								<p>Şahinbey, Gazinatep/Türkiye</p>
 							</li>
 						</ul>

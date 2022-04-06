@@ -55,8 +55,20 @@ $route['default_controller'] = 'home';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
-$route['hakkimizda'] = "home/about_us";
+//Türkçe Sayfalar
 $route['hakkimizda'] = 'home/about_us';
 $route['referanslar'] = 'home/references';
 $route['iletisim'] = 'home/contact_us';
+
+//Englisih Pages
+$route['en'] = 'home/selectedEn';
+$route['about-us'] = 'home/about_usEn';
+$route['references'] = 'home/referencesEn';
+$route['contact'] = 'home/contact_usEn';
+
+//Arabian Pages
+$route['arp'] = 'home/selectedArp';
+$route['about-arabian'] = 'home/about_usArp';
+$route['references-arabian'] = 'home/referencesArp';
+$route['contact-arabian'] = 'home/contact_usArp';
 

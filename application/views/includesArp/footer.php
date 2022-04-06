@@ -5,14 +5,14 @@
 			<div class="newsletter-shape-1"
 				 style="background-image: url(<?= base_url("assets") ?>/images/shapes/newsletter-shape-1.png);"></div>
 			<div class="newsletter__left">
-				<h3 class="newsletter__title">Fırsatları Kaçırmayın</h3>
-				<p class="newsletter__text">Tüm kampanya ve fırsatlarımızdan ilk sen haberdar ol!</p>
+				<h3 class="newsletter__title">لا تفوت الفرص</h3>
+				<p class="newsletter__text">كن أول من يعرف عن جميع حملاتنا وفرصنا!</p>
 			</div>
 			<div class="newsletter__right">
 				<form class="newsletter__form">
 					<div class="newsletter__input-box">
-						<input type="email" placeholder="Mail Adresinizi Giriniz..." name="email">
-						<button type="submit" class="thm-btn newsletter__btn">Gönder</button>
+						<input type="email" placeholder="أدخل عنوان بريدك الالكتروني..." name="email">
+						<button type="submit" class="thm-btn newsletter__btn">إرسال</button>
 					</div>
 				</form>
 			</div>
@@ -31,7 +31,7 @@
 				<div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
 					<div class="footer-widget__column footer-widget__about">
 						<div class="footer-widget__logo">
-							<a href="/"><img src="<?= base_url("assets") ?>/images/resources/footer-logo.png" alt=""></a>
+							<a href="/arp"><img src="<?= base_url("assets") ?>/images/resources/footer-logo.png" alt=""></a>
 						</div>
 
 						<div class="site-footer__social">
@@ -44,25 +44,25 @@
 				</div>
 				<div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms">
 					<div class="footer-widget__column footer-widget__explore clearfix">
-						<h3 class="footer-widget__title">Önemli Bilgiler</h3>
+						<h3 class="footer-widget__title">معلومات مهمة</h3>
 						<ul class="footer-widget__explore-list list-unstyled clearfix">
-							<li><a href="/">Anasayfa</a></li>
-							<li><a href="hakkimizda">Hakkımızda</a></li>
-							<li><a href="iletisim">İletişim</a></li>
-							<li><a href="referanslar">Referanslar</a></li>
+							<li><a href="/">الصفحة الرئيسية</a></li>
+							<li><a href="about-arabian">معلومات عنا</a></li>
+							<li><a href="contact-arabian">تواصل</a></li>
+							<li><a href="references-arabian">مراجع</a></li>
 						</ul>
 					</div>
 				</div>
 				<div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms">
 					<div class="footer-widget__column footer-widget__contact clearfix">
-						<h3 class="footer-widget__title">Bize Ulaşın</h3>
+						<h3 class="footer-widget__title">اتصل بنا</h3>
 						<ul class="footer-widget__contact-list list-unstyled clearfix">
 							<li>
 								<div class="icon">
 									<span class="icon-phone-call"></span>
 								</div>
 								<div class="text">
-									<h5>Bizi Arayın</h5>
+									<h5>اتصل بنا</h5>
 									<p><a href="tel:+908905338903264">+ 90 (533) 890 3264</a></p>
 								</div>
 							</li>
@@ -71,8 +71,8 @@
 									<span class="icon-message"></span>
 								</div>
 								<div class="text">
-									<h5>Sipariş İçin</h5>
-									<p><a href="mailto:ambed@company.com">siparis@maximodel.com.tr</a></p>
+									<h5>للطلب</h5>
+									<p><a href="mailto:ambed@company.com">order@maximodel.com.tr</a></p>
 								</div>
 							</li>
 							<li>
@@ -116,7 +116,7 @@
 		<span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
 
 		<div class="logo-box">
-			<a href="/" aria-label="logo image"><img src="<?= base_url("assets") ?>/images/resources/footer-logo.png"
+			<a href="/arp" aria-label="logo image"><img src="<?= base_url("assets") ?>/images/resources/footer-logo.png"
 															  width="155" alt="" /></a>
 		</div>
 		<!-- /.logo-box -->
@@ -126,7 +126,7 @@
 		<ul class="mobile-nav__contact list-unstyled">
 			<li>
 				<i class="fa fa-envelope"></i>
-				<a href="mailto:needhelp@packageName__.com">siparis@maximodel.com.tr</a>
+				<a href="mailto:needhelp@packageName__.com">order@maximodel.com.tr</a>
 			</li>
 			<li>
 				<i class="fa fa-phone-alt"></i>
@@ -154,8 +154,8 @@
 	<!-- /.search-popup__overlay -->
 	<div class="search-popup__content">
 		<form action="#">
-			<label for="search" class="sr-only">Arama Yap</label><!-- /.sr-only -->
-			<input type="text" id="search" placeholder="Arama Yap..." />
+			<label for="search" class="sr-only">يتصل</label><!-- /.sr-only -->
+			<input type="text" id="search" placeholder="يتصل.." />
 			<button type="submit" aria-label="search submit" class="thm-btn">
 				<i class="icon-magnifying-glass"></i>
 			</button>

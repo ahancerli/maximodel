@@ -5,11 +5,11 @@
 	<div class="container">
 		<div class="page-header__inner">
 			<ul class="thm-breadcrumb list-unstyled">
-				<li><a href="index.html">Home</a></li>
+				<li><a href="/">Anasayfa</a></li>
 				<li><span>/</span></li>
-				<li>Projects</li>
+				<li>Referanslar</li>
 			</ul>
-			<h2>Our Projects</h2>
+			<h2>Referanslar</h2>
 		</div>
 	</div>
 </section>
