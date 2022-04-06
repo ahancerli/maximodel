@@ -24,7 +24,7 @@
 			<div class="container">
 				<div class="main-header__top-inner clearfix">
 					<div class="main-header__logo">
-						<a href="index.html">
+						<a href="/en">
 							<img src="<?= base_url("assets") ?>/images/resources/logo-1.png" alt="" class="dark-logo">
 							<img src="<?= base_url("assets") ?>/images/resources/logo-2.png" alt="" class="light-logo">
 						</a>

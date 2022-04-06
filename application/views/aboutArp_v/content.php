@@ -5,11 +5,11 @@
 	<div class="container">
 		<div class="page-header__inner">
 			<ul class="thm-breadcrumb list-unstyled">
-				<li><a href="/">Anasayfa</a></li>
+				<li><a href="/arp">الصفحة الرئيسية</a></li>
 				<li><span>/</span></li>
-				<li>Hakkımızda</li>
+				<li>معلومات عنا</li>
 			</ul>
-			<h2>Hakkımızda</h2>
+			<h2>معلومات عنا</h2>
 		</div>
 	</div>
 </section>
