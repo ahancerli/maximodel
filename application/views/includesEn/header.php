@@ -92,7 +92,14 @@
 									</li>
 
 									<li><a href="contact">Contact </a></li>
-
+									<li class="dropdown visible-xs">
+										<a href="#">English </a>
+										<ul>
+											<li><a href="/">Turkish</a></li>
+											<li><a href="en">English</a></li>
+											<li><a href="arp">Arabian</a></li>
+										</ul>
+									</li>
 
 								</ul>
 							</div>

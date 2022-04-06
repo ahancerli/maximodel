@@ -93,7 +93,14 @@
 
 									<li><a href="contact-arabian">تواصل </a></li>
 
-
+									<li class="dropdown visible-xs">
+										<a href="#">عربي </a>
+										<ul>
+											<li><a href="/">اللغة التركية</a></li>
+											<li><a href="en">الانجليزية</a></li>
+											<li><a href="arp">عربي</a></li>
+										</ul>
+									</li>
 								</ul>
 							</div>
 						</div>

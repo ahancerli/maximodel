@@ -93,7 +93,14 @@
 
 									<li><a href="iletisim">İletişim </a></li>
 
-
+									<li class="dropdown visible-xs">
+										<a href="#">Türkçe </a>
+										<ul>
+											<li><a href="/">Türkçe</a></li>
+											<li><a href="en">İngilizce</a></li>
+											<li><a href="arp">Arapça</a></li>
+										</ul>
+									</li>
 								</ul>
 							</div>
 						</div>
