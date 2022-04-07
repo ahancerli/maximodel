@@ -25,8 +25,8 @@
 				<div class="main-header__top-inner clearfix">
 					<div class="main-header__logo">
 						<a href="/en">
-							<img src="<?= base_url("assets") ?>/images/resources/logo-1.png" alt="" class="dark-logo">
-							<img src="<?= base_url("assets") ?>/images/resources/logo-2.png" alt="" class="light-logo">
+							<img src="<?= base_url("assets") ?>/images/resources/maxi-siyah.png" alt="" class="dark-logo">
+							<img src="<?= base_url("assets") ?>/images/resources/maxi-beyaz.png" alt="" class="light-logo">
 						</a>
 					</div>
 					<div class="main-header__top-right">
@@ -93,7 +93,7 @@
 
 									<li><a href="contact">Contact </a></li>
 									<li class="dropdown visible-xs">
-										<a href="#">English </a>
+										<a href="javascript:;">Selected Language </a>
 										<ul>
 											<li><a href="/">Turkish</a></li>
 											<li><a href="en">English</a></li>
@@ -109,7 +109,7 @@
 							<div class="main-menu__search-btn-box">
 								<ul class="main-menu__list" style="padding-right: 70px">
 									<li class="dropdown">
-										<a href="#">English </a>
+										<a href="javasript:;">Selected Language </a>
 										<ul>
 											<li><a href="/">Turkish</a></li>
 											<li><a href="en">English</a></li>

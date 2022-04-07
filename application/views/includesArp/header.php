@@ -25,8 +25,8 @@
 				<div class="main-header__top-inner clearfix">
 					<div class="main-header__logo">
 						<a href="/arp">
-							<img src="<?= base_url("assets") ?>/images/resources/logo-1.png" alt="" class="dark-logo">
-							<img src="<?= base_url("assets") ?>/images/resources/logo-2.png" alt="" class="light-logo">
+							<img src="<?= base_url("assets") ?>/images/resources/maxi-siyah.png" alt="" class="dark-logo">
+							<img src="<?= base_url("assets") ?>/images/resources/maxi-beyaz.png" alt="" class="light-logo">
 						</a>
 					</div>
 					<div class="main-header__top-right">
@@ -82,7 +82,7 @@
 								<a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
 								<ul class="main-menu__list">
 									<li class="">
-										<a href="/arp">الصفحة الرئيسية </a>
+										<a href="/arp">ديل سينيز </a>
 									</li>
 									<li class="">
 										<a href="about-arabian">معلومات عنا </a>
@@ -94,7 +94,7 @@
 									<li><a href="contact-arabian">تواصل </a></li>
 
 									<li class="dropdown visible-xs">
-										<a href="#">عربي </a>
+										<a href="javascript:;">ديل سينيز </a>
 										<ul>
 											<li><a href="/">اللغة التركية</a></li>
 											<li><a href="en">الانجليزية</a></li>
@@ -109,7 +109,7 @@
 							<div class="main-menu__search-btn-box">
 								<ul class="main-menu__list" style="padding-right: 70px">
 									<li class="dropdown">
-										<a href="#">عربي </a>
+										<a href="javascript:;">ديل سينيز </a>
 										<ul>
 											<li><a href="/">اللغة التركية</a></li>
 											<li><a href="en">الانجليزية</a></li>

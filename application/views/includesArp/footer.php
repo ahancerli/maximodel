@@ -31,7 +31,7 @@
 				<div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
 					<div class="footer-widget__column footer-widget__about">
 						<div class="footer-widget__logo">
-							<a href="/arp"><img src="<?= base_url("assets") ?>/images/resources/footer-logo.png" alt=""></a>
+							<a href="/arp"><img src="<?= base_url("assets") ?>/images/resources/maxi-beyaz.png" alt=""></a>
 						</div>
 
 						<div class="site-footer__social">
@@ -116,7 +116,7 @@
 		<span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
 
 		<div class="logo-box">
-			<a href="/arp" aria-label="logo image"><img src="<?= base_url("assets") ?>/images/resources/footer-logo.png"
+			<a href="/arp" aria-label="logo image"><img src="<?= base_url("assets") ?>/images/resources/maxi-beyaz.png"
 															  width="155" alt="" /></a>
 		</div>
 		<!-- /.logo-box -->
