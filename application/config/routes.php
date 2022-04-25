@@ -72,3 +72,7 @@ $route['about-arabian'] = 'home/about_usArp';
 $route['references-arabian'] = 'home/referencesArp';
 $route['contact-arabian'] = 'home/contact_usArp';
 
+$route['send-mail'] = 'home/sendMail';
+$route['send-mailEn'] = 'home/sendMailEn';
+$route['send-mailArp'] = 'home/sendMailArp';
+

@@ -29,8 +29,15 @@
 						<h2 class="section-title__title"> اتصل بنا</h2>
 						<div class="section-title__line"></div>
 					</div>
+					<?php
+					$alert = $this->session->userdata("return");
+					if ($alert) {
+						?><div class="alert alert-<?= $alert['type'] ?>"><?= $alert['text'] ?></div>
+						<?php
+					}
+					?>
 					<div class="contact-page__form">
-						<form action="<?= base_url("assets") ?>/sendemail.php" class="comment-one__form contact-form-validated" novalidate="novalidate">
+						<form method="post" action="<?= base_url("send-mailArp") ?>" class="comment-one__form" novalidate="novalidate">
 							<div class="row">
 								<div class="col-xl-6">
 									<div class="comment-form__input-box">
@@ -44,12 +51,12 @@
 								</div>
 								<div class="col-xl-6">
 									<div class="comment-form__input-box">
-										<input type="text" placeholder="رقم تليفونك" name="Phone">
+										<input type="text" placeholder="رقم تليفونك" name="phone">
 									</div>
 								</div>
 								<div class="col-xl-6">
 									<div class="comment-form__input-box">
-										<input type="text" placeholder="موضوعات" name="Subject">
+										<input type="text" placeholder="موضوعات" name="pubject">
 									</div>
 								</div>
 							</div>
@@ -58,6 +65,8 @@
 									<div class="comment-form__input-box text-message-box">
 										<textarea name="message" placeholder="اكتب رسالة"></textarea>
 									</div>
+									<input type="hidden" name="<?=$this->security->get_csrf_token_name();?>" value="<?=$this->security->get_csrf_hash();?>">
+
 									<div class="comment-form__btn-box">
 										<button type="submit" class="thm-btn comment-form__btn">ارسل رسالة</button>
 									</div>
